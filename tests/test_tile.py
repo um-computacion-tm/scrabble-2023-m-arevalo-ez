@@ -1,10 +1,9 @@
 import unittest
-from tile import (
+from game.tile import (
     BagTiles,
     Tile,
 )
 from unittest.mock import patch
-
 
 class TestTiles(unittest.TestCase):
     def test_tile(self):
