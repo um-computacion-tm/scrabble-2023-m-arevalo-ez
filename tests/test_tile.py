@@ -11,6 +11,22 @@ class TestTiles(unittest.TestCase):
         self.assertEqual(tile.letter, 'A')
         self.assertEqual(tile.value, 1)
 
+    def test_tile(self):
+        tile = Tile('Z', 10)
+        self.assertEqual(tile.letter, 'Z')
+        self.assertEqual(tile.value, 10)
+
+    def test_tile(self):
+        tile = Tile('Z', 10)
+        self.assertEqual(tile.letter, 'Z')
+        self.assertEqual(tile.value, 10)
+
+    def test_tile(self):
+        tile = Tile('LL', 8)
+        self.assertEqual(tile.letter, 'LL')
+        self.assertEqual(tile.value, 8)
+    
+
 
 class TestBagTiles(unittest.TestCase):
     @patch('random.shuffle')
