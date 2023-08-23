@@ -6,22 +6,22 @@ from tile import (
 from unittest.mock import patch
 
 class TestTiles(unittest.TestCase):
-    def test_tile(self):
+    def test_tile1(self):
         tile = Tile('A', 1)
         self.assertEqual(tile.letter, 'A')
         self.assertEqual(tile.value, 1)
 
-    def test_tile(self):
+    def test_tile2(self):
         tile = Tile('Z', 10)
         self.assertEqual(tile.letter, 'Z')
         self.assertEqual(tile.value, 10)
 
-    def test_tile(self):
+    def test_tile3(self):
         tile = Tile('Z', 10)
         self.assertEqual(tile.letter, 'Z')
         self.assertEqual(tile.value, 10)
 
-    def test_tile(self):
+    def test_tile4(self):
         tile = Tile('LL', 8)
         self.assertEqual(tile.letter, 'LL')
         self.assertEqual(tile.value, 8)
@@ -34,7 +34,7 @@ class TestBagTiles(unittest.TestCase):
         bag = BagTiles()
         self.assertEqual(
             len(bag.tiles),
-            5,
+            100,
         )
         self.assertEqual(
             patch_shuffle.call_count,
