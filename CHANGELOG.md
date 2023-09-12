@@ -5,12 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.6.0] - 2023-11-09
+## [0.7.0] - 2023-11-09
 
 ### Added
 
-- merged class tiles and bagtiles into models
-- merged class player into models
+- added next turn funtion to scrabbelgame.
+
+### Fixed
+
+- fixed cell test due to low coverage report.
+- fixed funtion __init__ from Class scrabbel game.
 
 ## [0.6.0] - 2023-28-08
 
